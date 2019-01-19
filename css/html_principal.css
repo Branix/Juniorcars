@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  color: black;
+}
+
+.cars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #2196F3;
+  padding: 10px;
+  width: 50%;
+}
+
+.cars .car-card {
+  border: 5px dotted rgb(11, 11, 11);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0;
+  font-size: 1em;
+}
+
+
+.conteudo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+}
+
+.post{
+  display: grid;
+  justify-content: center;
+}
+
+.site-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #679394;
+  padding: 2rem;
+}
+
+.tema{
+  display: flex;
+  flex-direction: row;
+  background-color: #7cc37c;
+  width: 15%;
+}
+.xx {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  background-color: 27cfa2;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.aside-1 {
+  display: flex;
+  border: 5px dotted rgb(11, 11, 11);
+  background: blue;
+  width: 25%
+}
+
+.aside-2 {
+  display: flex;
+  border: 5px dotted rgb(11, 11, 11);
+  background: green;
+  width: 25%
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+}
+.menu li{
+  list-style-type: none;
+  padding: 15px;
+}
+.menu li:hover {
+  background: #a0e4a0;
+}
+
+.menu a:visited {
+  color: #2760ee;
+}
+
+.menu a:active {
+  color: #bd2d19;
+}
+
+ .site-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: .5rem;
+}
